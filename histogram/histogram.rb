@@ -6,7 +6,8 @@ rescue => exception
     
 =end
 numbers = [4,8,15,16,23,42]
-for num in numbers
+puts numbers.include?(8)
+numbers.each do |num|
     puts "#{num}\t|#{'*'*num}"
 end
 =begin
